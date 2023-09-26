@@ -1,6 +1,6 @@
 import {OptionValues} from "commander";
 import {Result} from "./result.ts";
-import {DomainPerChain} from "../configuration.ts";
+import {DomainPerChain} from "../model/configuration.ts";
 
 export const getDomainNumbers = (
     destination: string,

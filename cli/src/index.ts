@@ -4,7 +4,7 @@ import chalk from 'chalk';
 import {DispatchCliParams, DispatchResult, SearchCliParams} from "./model/types.ts";
 import {chain, Result} from "./utils/result.ts";
 import {getDomainNumbers, sanitizeUserInput} from "./utils/userInput.ts";
-import {buildHyperlaneConfig, destinationDomainPerChain} from "./configuration.ts";
+import {buildHyperlaneConfig, destinationDomainPerChain} from "./model/configuration.ts";
 import {dispatchHyperlaneMessage} from "./core/hyperlaneDispatchFunctions.ts";
 import {createHyperlaneExplorerClient} from "./core/hyperlaneExplorerClient.ts";
 import {getMessages} from "./core/hyperlaneSearchFunctions.ts";

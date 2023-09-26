@@ -1,6 +1,6 @@
 import {Contract, ethers, JsonRpcProvider} from "ethers";
-import {interchainGasPaymasterABI} from "./contracts/interchainGasPaymaster.ts";
-import {mailboxContractABI} from "./contracts/mailbox.ts";
+import {interchainGasPaymasterABI} from "../contracts/interchainGasPaymaster.ts";
+import {mailboxContractABI} from "../contracts/mailbox.ts";
 
 export type DomainPerChain = Record<string, number>;
 

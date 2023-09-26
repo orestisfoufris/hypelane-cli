@@ -1,6 +1,6 @@
 import {Contract, ethers, JsonRpcProvider, Log, LogDescription} from "ethers";
 import {mailboxContractABI} from "../contracts/mailbox.ts";
-import {HyperlaneConfig} from "../configuration.ts";
+import {HyperlaneConfig} from "../model/configuration.ts";
 import {chain, Result} from "../utils/result.ts";
 import {DispatchResult} from "../model/types.ts";
 import {padded32} from "../utils/adressUtils.ts";
